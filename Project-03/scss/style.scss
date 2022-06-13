@@ -1,0 +1,33 @@
+
+
+
+
+// All file connect here, import section
+
+@import "global";
+@import "header";
+@import "hero";
+@import "education";
+@import "practicalCourse";
+@import "teachers";
+@import "popularCourse";
+
+
+
+// Utility Class
+
+
+.headSpan{
+    color: #8E44AD;
+}
+.headSpanTernary{
+    color: $main;
+}
+
+.active{
+    background: $main;
+    color: #ffffff !important;
+}
+
+
+

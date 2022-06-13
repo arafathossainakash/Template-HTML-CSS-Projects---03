@@ -1,0 +1,81 @@
+
+
+.teacher{
+    background: #f9f9f9;
+
+    h1{
+        text-align: center;
+        padding-top: 3.43rem;
+        padding-bottom: 0.62rem;
+        color: $head;
+    }
+    h4{
+        text-align: center;
+        color: $para;
+
+    }
+    .teacherContainer{
+            width: 71.25rem;
+            margin: 3.75rem auto;
+            display: flex;
+            justify-content: space-between;
+
+        .teacherBoxes{
+            height: 26.56rem;
+            width: 16.8rem;
+            border-bottom: 1px solid #d6d6d6;
+            border-right: 1px solid #d6d6d6;
+            border-left: 1px solid #d6d6d6;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+           
+            .teacherImg{
+                width: 16.8rem;
+                height: 17.5rem;
+                overflow: hidden;
+                img{
+                width: 16.8rem;
+                height: 17.5rem;
+                background-position: center;
+                }
+            }
+        h2{
+            font-size: 1.31rem;
+            text-align: center;
+            padding-top: 1rem;
+            padding-bottom: 0.62rem;
+            color: $head;
+
+        }
+        h3{
+            font-size: 0.87rem;
+            font-weight: 600;
+            text-align: center;
+            color: $para;
+        }
+        .teacherSocial{
+            margin: 15px 55px;
+            
+            i{
+                margin-left: 0.8rem;
+                cursor: pointer;
+                color: $para;
+                height: 2rem;
+                width: 2rem;
+                font-size: 1rem;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: 0.5s;
+                text-align: center;
+                padding-top: 0.5rem;
+                
+    
+                &:hover{
+                    background: $main;
+                    color: #ffffff;
+                }
+            }
+        }
+        }
+    }
+
+}

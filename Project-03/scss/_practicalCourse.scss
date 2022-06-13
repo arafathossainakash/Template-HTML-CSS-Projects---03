@@ -1,0 +1,133 @@
+.practicalCourse{
+
+    .practicalContainer{
+        width: 71.2rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+
+
+        .leftCourseContainer{
+            width: 36rem;
+            
+            h2{
+                font-size: 1.99rem;
+                color: $dark;
+            }
+
+            .leftContent{
+                display: flex;
+                width: 33rem;
+                margin-top: 2.5rem;
+                color: $head;
+
+                p{
+                    color: $para;
+                    font-size: 0.95rem;
+                    padding-top: 0.5rem;
+                    line-height: 1.5;
+                }
+
+                i{
+                    height: 50px;
+                    width: 50px;
+                    background: $main;
+                    color: #ffffff;
+                    border-radius: 26px;
+                    padding: 9px;
+                    font-size: 25px;
+                    margin-right: 15px;
+                }
+
+                .contentCourse{
+                    width: 30.6rem;
+                }
+            }
+        }
+
+        .rightCourseContainer{
+            box-sizing: border-box;
+            width: 28.1rem;
+            height: 28.1rem;
+            border-radius: 50%;
+            border: 0.06rem solid;
+            background: $dark;
+            display: grid;
+            
+
+            h1{
+                text-align: center;
+                padding-top: 4.5rem;
+                color: #ffffff;
+            }
+
+            input[type="text"]{
+                width: 15rem;
+                height: 3.1rem;
+                position: relative;
+                left: 6.2rem;
+                top: -0.93rem;
+                outline: none;
+                background: transparent;
+                border: 0;
+                padding-left: 1rem;
+                border-bottom: 0.12px solid #717171;
+                color: $para;
+
+            }
+            input[type="email"]{
+                width: 15rem;
+                height: 3.1rem;
+                position: relative;
+                left: 6.2rem;
+                top: -1.62rem;
+                outline: none;
+                background: transparent;
+                border: 0;
+                padding-left: 1rem;
+                border-bottom: 0.12px solid #717171;
+                color: $para;
+
+            }
+            input[type="Password"]{
+                width: 15rem;
+                height: 3.1rem;
+                position: relative;
+                left: 6.25rem;
+                top: -1.87rem;
+                outline: none;
+                background: transparent;
+                border: 0;
+                padding-left: 1rem;
+                border-bottom: 0.12px solid #717171;
+                color: $para;
+
+
+            }
+            .courseBtn{
+                position: relative;
+                left: 9.37rem;
+                top: -1.62rem;
+                height: 2.8rem;
+                width:  9rem;
+                border: none;
+                border-radius: 1.37rem;
+                cursor: pointer;
+                transition: 0.4s;
+                
+                background: #ffffff;
+                color: $para;
+
+                &:hover{
+                    background: $tarnary;
+                    color: #ffffff;
+                    border: none;
+                }
+            }
+           
+        }
+    }
+    
+}
+
+
